@@ -67,15 +67,15 @@ button { font: inherit; }
   will-change: transform, opacity;
 }
 .hero-slide.slide-one {
-  background-image: url("H:WEBSITE AKIFA\\Asset\\bus1.jpg");
+  background-image: url("G:\\web-akifa-multi\\Asset\\bus1.jpg");
   animation-delay: 0s;
 }
 .hero-slide.slide-two {
-  background-image: url("H:WEBSITE AKIFA\\Asset\\bus2.jpg");
+  background-image: url("G:\\web-akifa-multi\\Asset\\bus2.jpg");
   animation-delay: -6s;
 }
 .hero-slide.slide-three {
-  background-image: url("H:WEBSITE AKIFA\\Asset\\bus3.jpg");
+  background-image: url("G:\\web-akifa-multi\\Asset\\bus3.jpg");
   animation-delay: -12s;
 }
 
@@ -256,7 +256,6 @@ h1 { font-size: clamp(43px, 5.1vw, 69px); line-height: 1.07; letter-spacing: -3.
 
 /* Values */
 .values { background: var(--ivory); position: relative; overflow: hidden; }
-.values::after { content:url("H:\\AKIFA MULTIUSAHA\\WEBSITE\\Asset\Akifa_Background.png"); position: absolute; right: -40px; bottom: -130px; font-size: 330px; line-height: 1; font-weight: 800; color: #f3e9bd; pointer-events: none; }
 .values-grid { display: grid; grid-template-columns: .85fr 1.15fr; gap: 100px; position: relative; z-index: 1; }
 .values-heading h2 { margin-bottom: 20px; }
 .values-heading > p:not(.kicker) { font-size: 12px; line-height: 1.9; color: var(--muted); }
@@ -475,7 +474,7 @@ p { text-align: justify; text-justify: inter-word; }
   color: #fff;
   min-height: auto;
   padding: 0;
-  background-image: linear-gradient(105deg, rgba(25,24,23,.94) 0%, rgba(25,24,23,.78) 52%, rgba(25,24,23,.42) 100%), url('https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=2000&q=85');
+  background-image: linear-gradient(105deg, rgba(25,24,23,.94) 0%, rgba(25,24,23,.78) 52%, rgba(25,24,23,.42) 100%);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
